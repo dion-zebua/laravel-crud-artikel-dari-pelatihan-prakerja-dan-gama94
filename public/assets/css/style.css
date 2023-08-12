@@ -1,0 +1,28 @@
+img.logo-text {
+    width: calc(180px + 7vw);
+}
+.line-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+.line-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+.my-img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+.img-table {
+    border-radius: .25rem;
+    width: 100px !important;
+}
+.fs-7 {
+    font-size: .85rem  !important;
+}
